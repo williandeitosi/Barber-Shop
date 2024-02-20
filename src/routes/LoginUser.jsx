@@ -73,12 +73,14 @@ const Login = () => {
               </div>
             </div>
             <div>
-              <button
-                type="submit"
-                className=" bg-yellow-500 flex w-full justify-center rounded-md px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Logar
-              </button>
+              <Link to={"/servicos"}>
+                <button
+                  type="submit"
+                  className=" bg-yellow-500 flex w-full justify-center rounded-md px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Logar
+                </button>
+              </Link>
             </div>
           </form>
           <p className="mt-10 text-center text-sm text-white">
