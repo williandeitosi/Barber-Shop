@@ -11,7 +11,11 @@ const User = () => {
         Serviços
       </h1>
       <div className=" text-white grid grid-cols-3 content-center p-5">
-        <Link className=" flex items-center justify-center " to={`/agenda?s=1`}>
+        <Link
+          to={"/calender"}
+          className=" flex items-center justify-center "
+          // to={`/agenda?s=1`}
+        >
           <ServiceCards imageSrc={icon} serviceName={"Barba"} />
         </Link>
         <Link className=" flex items-center justify-center " to={`/agenda?s=2`}>

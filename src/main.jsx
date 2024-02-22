@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./routes/LoginUser.jsx";
 import Register from "./routes/Register.jsx";
 import Servicos from "./routes/Servicos.jsx";
+import Calender from "./routes/Calender.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "servicos",
     element: <Servicos />,
+  },
+  {
+    path: "calender",
+    element: <Calender />,
   },
 ]);
 
