@@ -8,6 +8,7 @@ import Login from "./routes/LoginUser.jsx";
 import Register from "./routes/Register.jsx";
 import Servicos from "./routes/Servicos.jsx";
 import Calender from "./routes/Calender.jsx";
+import Schedule from "./routes/Schedule.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "calender",
     element: <Calender />,
+  },
+  {
+    path: "agenda",
+    element: <Schedule />,
   },
 ]);
 
